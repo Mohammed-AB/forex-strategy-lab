@@ -1,0 +1,7 @@
+# Forex Strategy Lab — runtime dependencies
+# forex_backtester.py needs only numpy + pandas.
+# smart_backtester.py additionally needs optuna for Bayesian optimization.
+
+pandas>=2.0
+numpy>=1.24
+optuna>=3.4

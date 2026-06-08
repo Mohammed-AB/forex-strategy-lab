@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Market data (never commit raw price feeds)
+*.csv
+forex_5min_combined.txt
+all_5pairs_daily.txt
+
+# Generated reports
+backtest_report.txt
+smart_report.txt
+*_report.txt
+
+# Optuna studies / databases
+*.db
+*.sqlite3
+
+# OS / editor
+.DS_Store
+.env
+.idea/
+.vscode/
